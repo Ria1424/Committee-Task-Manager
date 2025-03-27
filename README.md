@@ -8,11 +8,8 @@ A robust and user-friendly task management system designed for committee heads t
 - [Introduction](#-introduction)
 - [Features](#-features)
 - [Technologies Used](#-technologies-used)
-- [Installation](#-installation)
 - [Usage](#-usage)
 - [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -55,11 +52,33 @@ This tool is perfect for improving productivity, ensuring accountability, and en
 
 ---
 
-## 📥 Installation
+## 📌 Usage
 
-Follow these steps to run the project locally:
+### Running the Application
+To run the **Committee Task Management System**, follow these steps:
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/task-management-system.git
-   cd task-management-system
+1. **Install Dependencies:**
+   ```sh
+   pip install streamlit pandas
+   ```
+
+2. **Run the Application:**
+   ```sh
+   streamlit run app.py
+   ```
+
+3. **Access the Web Interface:**
+   - After running the command, you will see a URL (usually `http://localhost:8501/`).
+   - Open it in your web browser to start using the application.
+
+---
+
+## 🖼 Screenshots
+![View Tasks](View%20Tasks.png)
+![Assign Task](Assign%20Task.png)  
+---
+
+This project is developed and maintained by **https://github.com/Ria1424**.
+
+---
+
